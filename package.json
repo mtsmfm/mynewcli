@@ -4,8 +4,9 @@
   "description": "oclif example Hello World CLI",
   "author": "Fumiaki MATSUSHIMA @mtsmfm",
   "bin": {
-    "mynewcli": "./bin/run"
+    "mynewcli": "./bin/run.js"
   },
+  "type": "module",
   "homepage": "https://github.com/mtsmfm/mynewcli",
   "license": "MIT",
   "main": "dist/index.js",
